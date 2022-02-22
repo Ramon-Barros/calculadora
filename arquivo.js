@@ -23,5 +23,9 @@ function calcular(){
 }
 function porcento(){
     var resultado = document.getElementById('resultado').innerHTML;
-    document.getElementById('resultado').innerHTML = resultado /100;
+    document.getElementById('resultado').innerHTML = resultado / 100;
 }
+ function raiz(){
+     var resultado = document.getElementById('resultado').innerHTML;
+     document.getElementById('resultado').innerHTML = Math.sqrt(resultado);
+ }
